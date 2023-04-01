@@ -1,4 +1,6 @@
-### Handlebars Development Server
+## Handlebars Development Server
+
+#### Description
 
 This package is a development server for handlebars templates. It watches for changes in the `template.hbs` and `context.json`. After each change server will render your template and write it to the ```index.html```. You dont have to reload the browser while you make changes on the ```template.hbs``` or ```context.json```.
 
@@ -15,10 +17,12 @@ This package is a development server for handlebars templates. It watches for ch
 
 
 
-#### You can follow me on
+#### Thanks
 
-https://twitter.com/nazmirket
+Thanks for checking out my work. you can follow me on social media with following links
 
-https://www.instagram.com/nazmirket/
+- https://twitter.com/nazmirket
 
-https://www.youtube.com/@nazmirket
+- https://www.instagram.com/nazmirket/
+
+- https://www.youtube.com/@nazmirket
