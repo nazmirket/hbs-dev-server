@@ -1,0 +1,137 @@
+<html>
+
+<head>
+    <title>Welcome</title>
+
+
+    <style>
+        @font-face {
+            font-family: 'Koh Santepheap';
+            font-style: normal;
+            src: url({{#load 'normal.ttf'}}{{/load}});
+        }
+
+        @font-face {
+            font-family: 'Koh Santepheap Bold';
+            font-style: normal;
+            src:url({{#load 'bold.ttf'}}{{/load}});
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 5px;
+        }
+
+        .michael {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 100%;
+            box-shadow: 0px 0 20px 0 rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+
+        h1 {
+            font-size: 20px;
+            margin: 0;
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .f {
+            font-family: 'Koh Santepheap';
+        }
+
+        .f-b {
+            font-family: 'Koh Santepheap Bold';
+        }
+
+        p {
+            max-width: 600px;
+            margin: 0;
+            font-size: 32px;
+            font-style: italic;
+        }
+
+
+        .sub {
+            margin-top: 60px;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            text-align: center;
+            color: rgb(100, 110, 120);
+        }
+
+
+        .svg svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+        }
+
+        .links a {
+            text-decoration: none;
+        }
+
+        .links svg {
+            width: 28px;
+            height: 28px;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="michael" src="{{#load 'scott.png'}}{{/load}}" alt="">
+    <p class="f">"Saw Inception. Or at least I dreamt I did."</p>
+    <h1 class="f-b">Michael Scott</h1>
+
+
+    <div class="sub">
+        <span>
+            Hope you enjoy using the package
+        </span>
+
+        <span class="svg">
+            {{#load 'heart.svg'}}{{/load}}
+        </span>
+
+        <span>
+            Have a nice day and follow me on
+        </span>
+
+        <div class="links">
+            <a href="https://twitter.com/nazmirket">
+                {{#load 'tw.svg'}}{{/load}}
+            </a>
+            <a href="https://www.instagram.com/nazmirket/">
+                {{#load 'ig.svg'}}{{/load}}
+            </a>
+            <a href="https://www.youtube.com/@nazmirket">
+                {{#load 'yt.svg'}}{{/load}}
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

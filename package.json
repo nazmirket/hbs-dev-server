@@ -1,0 +1,22 @@
+{
+	"name": "hbs-dev-server",
+	"version": "1.0.0",
+	"description": "This package is a development server for handlebars templates. It watches for changes in the templates and reloads the browser automatically.",
+	"scripts": {
+		"start": "node src/Server.js"
+	},
+	"keywords": [
+		"handlebars",
+		"dev environment",
+		"hbs",
+		"server",
+		"development"
+	],
+	"author": "nazmirket",
+	"license": "ISC",
+	"dependencies": {
+		"chokidar": "^3.5.3",
+		"handlebars": "^4.7.7",
+		"live-server": "^1.2.2"
+	}
+}
